@@ -1,0 +1,9 @@
+TA_Lib-0.4.24-cp310-cp310-win_amd64.whl
+python-binance
+pandas
+scipy
+matplotlib
+websocket-client
+yfinance
+install pandas-ta
+ccxt
