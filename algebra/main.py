@@ -3,7 +3,10 @@ import pandas_ta as ta
 from pandas_ta import volume
 import yfinance, ccxt
 import json
-from telegram_sample import send_telegram_message
+from sender import send_telegram_message
+
+from secret import telegram_api, chat_id, bot_token, group_id
+
 
 exchange_binance = ccxt.binance()
 exchange_bybit = ccxt.bybit()
